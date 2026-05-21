@@ -1,0 +1,52 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.o
+*.obj
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# CLion
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Results and generated images
+results/
+output/
+predicted_mask.png
+back.png
+error.png
+rectified_image.png
+gray_image.png
+fourier_magnitude.png
+filtered_fourier.png
+
+# Input images and masks
+*.jpg
+*.jpeg
+*.png
