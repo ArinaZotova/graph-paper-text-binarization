@@ -36,7 +36,8 @@ Makefile
 .DS_Store
 
 # Results and generated images
-results/
+results/*
+!results/.gitkeep
 output/
 predicted_mask.png
 back.png
@@ -45,8 +46,3 @@ rectified_image.png
 gray_image.png
 fourier_magnitude.png
 filtered_fourier.png
-
-# Input images and masks
-*.jpg
-*.jpeg
-*.png
